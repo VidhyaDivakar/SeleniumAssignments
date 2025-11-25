@@ -16,11 +16,14 @@ public class UpperCaseString {
 			// this will find the odd index values, divides all the i values (0,1,2,3,4,5,6) by 2 
 			// and % function finds the reminder, so all the odds does not have zero has the reminder
 			if(i%2 != 0) {
-		System.out.print("- "+ testArray[i]);
+				testArray[i] = Character.toUpperCase(testArray[i]);
+			}
+		System.out.println(testArray[i]);
+		
 			
 		}
 		}
 	
 		}
 	}
-}
+
